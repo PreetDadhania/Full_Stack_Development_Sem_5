@@ -1,4 +1,6 @@
 import React from "react";
+import './Practical_1.css';
+
 class Practical_1 extends React.Component {
     constructor(props) {
         super(props);
@@ -19,14 +21,14 @@ class Practical_1 extends React.Component {
 
     render() {
         return (
-            <div style={{ textAlign: "center", marginTop: "100px", fontSize: "2rem" }}>
-                <h1>
+            <div className="practical1-container">
+                <h1 className="practical1-title">
                     <strong>
-                        Welcome to <span style={{ color: "navy" }}>CHARUSAT!!!!</span>
+                        Welcome to <span>CHARUSAT!!!!</span>
                     </strong>
                 </h1>
-                <p><strong ref={(el) => (this.dateRef = el)}>It is loading date...</strong></p>
-                <p><strong ref={(el) => (this.timeRef = el)}>It is loading time...</strong></p>
+                <p><strong className="practical1-date" ref={(el) => (this.dateRef = el)}>It is loading date...</strong></p>
+                <p><strong className="practical1-time" ref={(el) => (this.timeRef = el)}>It is loading time...</strong></p>
             </div>
         )
     }

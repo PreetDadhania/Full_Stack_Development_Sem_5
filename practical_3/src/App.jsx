@@ -12,17 +12,17 @@ function App() {
 
   return (
     <>
-      {/* <div>
-        <Practical />
-      </div> */}
+      <div>
+        <Practical_1 />
+      </div>
       {/* <Demo1 dept = "CSE" institute = "CSPIT"> 
         <button>ACTION</button>
-      </Demo1>
-      <Demo1 dept = "CE" institute = "CSPIT"/>
+      </Demo1> */}
+      {/* <Demo1 dept = "CE" institute = "CSPIT"/>
       <Demo2 dept = "IT" institute = "KDPIT"/> */}
       {/* <StateDemo /> */}
       {/* <Counter /> */}
-      <Counter_5 />
+      {/* <Counter_5 /> */}
     </>
   )
 }
