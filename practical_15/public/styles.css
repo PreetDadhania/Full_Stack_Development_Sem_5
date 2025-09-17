@@ -21,12 +21,13 @@ body {
   max-width: 400px;
 }
 
-.container h1 {
-  margin-bottom: 10px;
+.container h1,
+.container h2 {
   color: #333;
+  margin-bottom: 15px;
 }
 
-/* Inputs */
+/* Input */
 input[type="text"] {
   width: 80%;
   padding: 10px;
@@ -39,24 +40,23 @@ input[type="text"] {
 /* Button */
 button,
 .btn {
-  background: #66a6ff;
-  color: white;
+  background: #8EC5FC;
+  color: #333;
   padding: 12px 20px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
-  transition: background 0.3s ease;
   text-decoration: none;
-  display: inline-block;
+  transition: background 0.3s ease;
 }
 
 button:hover,
 .btn:hover {
-  background: #5591e6;
+  background: #E0C3FC;
 }
 
-/* Error Message */
+/* Error message */
 .error {
   background: #ffcccc;
   color: #b30000;
