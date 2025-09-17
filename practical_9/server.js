@@ -3,7 +3,7 @@ const path = require('path');
 
 const app = express();
 
-// Serve static files (CSS, images, JS)
+//Static files
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes

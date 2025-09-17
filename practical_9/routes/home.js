@@ -2,9 +2,8 @@ const express = require('express');
 const router = express.Router();
 const path = require('path');
 
-// Home route
 router.get('/', (req, res) => {
-  // Return simple HTML referencing our CSS file
+  
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
